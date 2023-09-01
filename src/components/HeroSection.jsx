@@ -15,7 +15,7 @@ function Hero(){
         <>
             <div>
 
-                <Particle />
+                {/* <Particle /> */}
                
                 
 

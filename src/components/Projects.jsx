@@ -6,12 +6,12 @@ import data from '../projectsData.js'
 
 
 const projects = data.map(project => (
-    <div key={project.id} className='hover:scale-110 transition-all group '>
+    <div key={project.id} className='hover:scale-110 transition-all group relative'>
         <img src={project.img} alt="" className='w-[80%] h-[80%]
          mx-auto my-8 shadow-imgsShadow rounded-[1.25rem] '  />
          
-        <div  className='flex w-52 mx-auto -mt-[17px] justify-between group-hover:bg-secondary group-hover:p-4 
-        group-hover:-mt-[95px] group-hover:rounded-3xl relative z-10 transition-all'>
+        <div  className='flex w-52 mx-auto absolute left-14 -bottom-[18px] -mt-[17px] justify-between group-hover:bg-secondary group-hover:p-4 
+        group-hover:bottom-[10%] group-hover:rounded-3xl z-10 transition-all'>
             <div>
                 <a href={project.liveUrl} target='_blank'>
                     <FontAwesomeIcon icon ={faUpRightFromSquare} className='mr-[5px]' />

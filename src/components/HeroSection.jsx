@@ -31,7 +31,7 @@ function Hero(){
 
                 <div className='flex items-center flex-col mt-3 sm:flex-row sm:justify-center sm:gap-4'>
 
-                    <img src={heroImg} alt="" className='saturate-0 w-[70%] 
+                    <img src={heroImg} alt="" className='saturate-0 w-[70%] aspect-square
                     h-[70%] sm:w-1/2 sm:h-1/2 lg:w-[40%] lg:h-[40%] lg:text-4xl' />
                     <div className='mt-5'>
                         <p className='text-lg mb-3 sm:text-2xl sm:mb-4 lg:text-[2rem] '>Welcome to My website 👋</p>

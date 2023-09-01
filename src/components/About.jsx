@@ -12,7 +12,7 @@ function About(){
                     Always looking to learn new technologies and improve my self to be better than before.
 
                 </p>
-                <img src={about} alt="" className='saturate-[.2] mx-auto sm:w-[50%]'/>
+                <img src={about} alt="" className='saturate-[.2] mx-auto w-4/5 h-4/5  sm:w-1/2 sm:h-1/2'/>
             </div>
             <hr className='opacity-20 w-4/5 my-7 mx-auto' />
         </>

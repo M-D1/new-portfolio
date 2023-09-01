@@ -7,7 +7,7 @@ import data from '../projectsData.js'
 
 const projects = data.map(project => (
     <div key={project.id} className='hover:scale-110 transition-all group '>
-        <img src={project.img} alt="" className='w-[40vw] h-[40vh]
+        <img src={project.img} alt="" className='w-[80%] h-[80%]
          mx-auto my-8 shadow-imgsShadow rounded-[1.25rem] '  />
          
         <div  className='flex w-52 mx-auto -mt-[17px] justify-between group-hover:bg-secondary group-hover:p-4 

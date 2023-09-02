@@ -35,14 +35,18 @@ function Hero(){
                     h-[70%] sm:w-1/2 sm:h-1/2 lg:w-[40%] lg:h-[40%] lg:text-4xl' />
                     <div className='mt-5'>
                         <p className='text-lg mb-3 sm:text-2xl sm:mb-4 lg:text-[2rem] '>Welcome to My website 👋</p>
-                        <a href="#" className='
+                        <a href="#project" className='
                         relative
                         bg-secondary z-[1] text-[.9375rem] py-[0.3125rem] px-5 rounded-full block mb-3
                         sm:w-[60%] lg:w-[50%] lg:text-lg before:absolute before:inset-0
                        
                          before:bg-white before:z-[-1] before:rounded-full hover:text-black before:scale-x-0
-                         before:transition-all  before:duration-700 hover:before:scale-x-100 transition-all duration-700 '>Projects</a>
-                        <a href="#" className='
+                         before:transition-all  before:duration-700 hover:before:scale-x-100 transition-all duration-700
+                         focus:text-black  focus:before:scale-x-100
+                        
+                        
+                         '>Projects</a>
+                        <a href="#about" className='
                         relative
                         z-[1]
                         bg-secondary text-[.9375rem] 
@@ -50,7 +54,9 @@ function Hero(){
                         sm:w-[60%] lg:w-[50%] lg:text-lg before:absolute before:inset-0
                        
                         before:bg-white before:z-[-1] before:rounded-full hover:text-black before:scale-x-0
-                        before:transition-all  before:duration-700 hover:before:scale-x-100 transition-all duration-700'>About me</a>
+                        before:transition-all  before:duration-700 hover:before:scale-x-100 transition-all duration-700
+                        focus:text-black  focus:before:scale-x-100
+                        '>About me</a>
                     </div>
                 </div>
             </div>

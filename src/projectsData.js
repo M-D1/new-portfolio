@@ -12,7 +12,8 @@ export default [
         id:0,
         img:Space,
         liveUrl:'https://space-tourism-md.netlify.app',
-        githubRepo:'https://github.com/M-D1/Space-tourism-multi-page-website'
+        githubRepo:'https://github.com/M-D1/Space-tourism-multi-page-website',
+        
     },
     {
         id:1,

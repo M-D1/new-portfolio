@@ -10,7 +10,7 @@ const projects = data.map(project => (
         <img src={project.img} alt="" className='w-[80%] h-[80%]
          mx-auto my-8 shadow-imgsShadow rounded-[1.25rem] '  />
          
-        <div className='flex w-52 mx-auto absolute left-2/4 -translate-x-2/4 -bottom-[18px] -mt-[17px] justify-between group-hover:bg-secondary group-hover:p-4 
+        <div className='flex w-52 mx-auto absolute left-2/4 -translate-x-2/4 -bottom-[30px] -mt-[17px] justify-between group-hover:bg-secondary group-hover:p-4 
         group-hover:bottom-[10%] group-hover:rounded-3xl z-10 transition-all  
         '>
             <div>
